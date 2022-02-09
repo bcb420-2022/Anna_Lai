@@ -1,0 +1,22 @@
+---
+title: "Assignment 1 - Data set selection and initial processing"
+author: "Anna Teresa Lai"
+email: annateresa.lai@mail.utoronto.ca
+date: "2/9/2022"
+output: html_notebook
+geometry: left = 2cm, right = 2cm, top = 1cm, bottom = 1cm
+mainfont: Courier
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Select Expression Dataset
+
+# Clean the data and map to HUGO symbols
+
+# Apply Normalization
+
+# Dataset Interpretation
