@@ -1,0 +1,49 @@
+---
+title: "Assignment 2 - Differential Gene Expression and Preliminary ORA"
+author: "Anna Teresa Lai"
+email: annateresa.lai@mail.utoronto.ca
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+geometry: left = 2cm, right = 2cm, top = 1cm, bottom = 1cm
+mainfont: Courier
+bibliography: assignment2.bib
+csl: bioinformatics.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning=FALSE, message=FALSE}
+suppressPackageStartupMessages({
+  library('GEOquery')
+  library('BiocManager')
+  library("edgeR")
+  library("biomaRt")
+  library("GEOmetadb")
+  library("R.utils")
+  library("ggplot2")
+  library("rpact")
+  })
+```
+
+# Introduction 
+The data was cleaned and pre-processed in the previous assignment. The data was published on a [2020 paper](10.1038/s41467-020-16589-8 )[@perkail2020bap1]. Citation of Bioinformatics journal style was used. The styling of this citation was downloaded from GitHub. 
+
+# Expression
+
+# Over-representation analysis
+
+# Table of conetents (required for the assignment)
+
+# References
+
+## Citation of packages and GitHub resources used
+```{r}
+# csl file citation: https://github.com/citation-style-language/styles/blob/master/bioinformatics.csl
+```
+
+## Citations generated with bibtex
