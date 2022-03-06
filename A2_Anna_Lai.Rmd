@@ -7,6 +7,7 @@ output:
   html_document:
     toc: true
     toc_depth: 3
+    toc_float: true
 geometry: left = 2cm, right = 2cm, top = 1cm, bottom = 1cm
 mainfont: Courier
 bibliography: assignment2.bib
@@ -36,8 +37,6 @@ The data was cleaned and pre-processed in the previous assignment. The data was 
 # Expression
 
 # Over-representation analysis
-
-# Table of conetents (required for the assignment)
 
 # References
 
